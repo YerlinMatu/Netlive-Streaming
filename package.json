@@ -1,0 +1,18 @@
+{
+  "name": "liveuib",
+  "version": "1.0.0",
+  "description": "Video Streaming",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Yerlin Matu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "log": "^1.4.0",
+    "nodemon": "^1.11.0",
+    "socket.io": "^2.0.3"
+  }
+}
