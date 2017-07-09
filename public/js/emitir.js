@@ -34,6 +34,6 @@
 		}
 			setInterval(function(){
 				viewVideo(video, context)
-			},0.4)
+			},50)
 		
 	})
