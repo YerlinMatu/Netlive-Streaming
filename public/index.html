@@ -1,12 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
-	<title>Live Cimarron</title>
+  <title>Vive Cimarron</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-	<h1>Video en vivo</h1>
-	<p><a href="emision.html">Emitir señal</a></p>
-	<p><a href="ver.html">Ver transmisión</a></p>
+<body id="view-play">
+  <div class='main'> 
+  <div class='logo-area'>
+    <div class='box-top'>
+      <div class='cube'>
+        <div class='front'>
+          <!-- Logo -->
+          <img src="img/ERobot.jpg" alt="logo">
+          <img src="img/ERobot.jpg" alt="logo">
+          <img src="img/ERobot.jpg" alt="logo">
+        </div>
+        <div class='left'>
+        </div>
+      </div>
+    </div>
+    <div class='box-bttm'>
+      <div class='cube'>
+        <div class='front'>
+          Canal
+        </div>
+        <div class='right'>
+          Netlive
+        </div>
+        <div class='back'>
+          Canal
+        </div>
+        <div class='left'>
+          <div class="time">
+            <span class="hm"></span>
+            <span class="ampm"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='cur-event'>
+    <div class='top'></div>
+    <div class='glow'></div>
+    <div class='bttm'></div>
+    <p>Cimarrones</p>
+  </div>
+</div>
+<div class='ticker'>
+  <p class='ticker-txt'>
+Entre los jugadores destacados en su historia se encuentran Camontea Griffin, Randall Hunter (otros clubes) y Eleutherio Rentería, Edgar Moreno.</p>
+  <div class='stock-info'>
+    <div class='stock-symbol'>
+      
+      <p>PUNTOS</p>
+    </div>
+    <span>4</span>
+  </div>
+</div>
+<div class='bottom'></div>
+ <script src="js/index.js"></script>
+ <script src="js/ver.js"></script>
 </body>
 </html>

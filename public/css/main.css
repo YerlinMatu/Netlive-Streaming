@@ -1,0 +1,13 @@
+.screen {
+	width: 80%;
+	height: 60%;
+	position: absolute;
+	margin: 0 auto;
+	display: block;
+	z-index: 1;
+}
+
+img[alt="logo"]{
+	height: 80px;
+	width: 110px;
+}

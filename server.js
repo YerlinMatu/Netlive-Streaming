@@ -19,8 +19,8 @@ app.get('/', (req, res)=>{
 
 // Escuchar conexión de usuario.
 io.on('connection', (socket)=>{
-		socket.on('stream', (view)=>{
-			socket.broadcast.emit('stream', view);
+		socket.on('stream', (imagen)=>{
+			socket.broadcast.emit('stream', imagen);
 		})
 })
 
