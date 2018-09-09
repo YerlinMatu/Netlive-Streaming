@@ -17,7 +17,6 @@ app.get('/', (req, res) => {
    res.redirect('index.html');
 });
 
-// Escuchar conexión de usuario.
 io.on('connection', (socket) => {
    socket.on('stream', (imagen) => {
    socket.broadcast.emit('stream', imagen);
